@@ -494,7 +494,7 @@ class _TIMUIKitTextFieldLayoutNarrowState
                                           // fontSize: 10,
                                           color: Color(0xffAEA4A3),
                                         ),
-                                        fillColor: Colors.white,
+                                        fillColor: theme.chatInputBoxBgColor,
                                         filled: true,
                                         isDense: true,
                                         hintText: widget.hintText ?? ''),
