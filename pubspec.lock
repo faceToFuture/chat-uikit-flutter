@@ -1174,9 +1174,9 @@ packages:
   tencent_im_base:
     dependency: "direct main"
     description:
-      name: tencent_im_base
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "../tencent_im_base-1.0.51"
+      relative: true
+    source: path
     version: "1.0.51"
   tencent_im_sdk_plugin_platform_interface:
     dependency: transitive

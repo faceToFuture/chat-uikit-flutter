@@ -81,6 +81,12 @@ dev_dependencies:
   fast_i18n: ^5.12.2
   lints: ^1.0.1
 
+dependency_overrides:
+  tencent_im_base:
+    #    git:
+    #      url: https://github.com/faceToFuture/tencent_im_base.git
+    path: ../tencent_im_base-1.0.51
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
